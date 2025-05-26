@@ -1,0 +1,203 @@
+/* styles/styles.css */
+
+/* Reset dan base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Skip Link - Aksesibilitas */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.3s ease;
+  font-size: 1rem;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Header dan Navigasi */
+header {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+nav a {
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
+/* Main content */
+main#main-content {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 1rem auto;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Fokus untuk elemen interaktif */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+a:focus {
+  outline: 3px solid #005fa3;
+  outline-offset: 2px;
+}
+
+/* Tambahan sederhana untuk form dan tombol (opsional) */
+input, select, textarea {
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #005fa3;
+  outline: none;
+}
+/* src/styles/main.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4ca9a9;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.story-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.story-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.story-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.story-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: flexbox;
+}
+
+.story-content {
+  padding: 1rem;
+}
+
+.story-content h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.story-content small {
+  color: #555;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.story-content p {
+  color: #333;
+  margin: 0;
+}
+#map {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+}
+
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
