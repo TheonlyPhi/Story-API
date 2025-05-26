@@ -1,0 +1,27 @@
+# HexaMood Story App
+
+Aplikasi berbagi cerita berbasis web, dibangun sebagai submission akhir kelas Dicoding "Belajar Membuat Aplikasi Web dengan React".
+
+## Fitur
+- SPA dengan routing hash (#)
+- Model-View-Presenter pattern
+- Login, Register
+- Menampilkan story (gambar, teks, lokasi di peta)
+- Menambah story baru dengan kamera dan lokasi
+- View Transition API
+- Push Notification menggunakan VAPID
+- PWA: Offline, installable, Application Shell
+- IndexedDB untuk menyimpan data lokal
+
+## Teknologi
+- JavaScript
+- Leaflet.js + Mapbox
+- Service Worker (sw.js)
+- IndexedDB
+- Webpack
+
+## Konfigurasi
+Pastikan `MAP_API_KEY` sudah tersedia di `STUDENT.txt`.
+
+## Lisensi
+Dibuat sebagai syarat kelulusan Dicoding Submission.
